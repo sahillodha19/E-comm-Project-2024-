@@ -1,0 +1,77 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/ubuntu/project/frontend/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/home/ubuntu/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 16ms
+17 timing npm:load:configload Completed in 16ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm create vite@latest
+21 verbose argv "create" "vite@latest"
+22 timing npm:load:setTitle Completed in 3ms
+23 timing config:load:flatten Completed in 8ms
+24 timing npm:load:display Completed in 10ms
+25 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs/2024-10-15T17_28_51_396Z-
+26 verbose logfile /home/ubuntu/.npm/_logs/2024-10-15T17_28_51_396Z-debug-0.log
+27 timing npm:load:logFile Completed in 9ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 39ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 1ms
+33 http fetch GET 200 https://registry.npmjs.org/create-vite 752ms (cache miss)
+34 timing arborist:ctor Completed in 1ms
+35 timing arborist:ctor Completed in 0ms
+36 timing idealTree:init Completed in 10ms
+37 timing idealTree:userRequests Completed in 8ms
+38 silly idealTree buildDeps
+39 silly fetch manifest create-vite@5.5.3
+40 http fetch GET 200 https://registry.npmjs.org/create-vite 19ms (cache hit)
+41 silly placeDep ROOT create-vite@5.5.3 OK for:  want: 5.5.3
+42 timing idealTree:#root Completed in 37ms
+43 timing idealTree:node_modules/create-vite Completed in 0ms
+44 timing idealTree:buildDeps Completed in 38ms
+45 timing idealTree:fixDepFlags Completed in 1ms
+46 timing idealTree Completed in 59ms
+47 timing reify:loadTrees Completed in 60ms
+48 timing reify:diffTrees Completed in 1ms
+49 silly reify moves {}
+50 timing reify:retireShallow Completed in 1ms
+51 timing reify:createSparse Completed in 13ms
+52 timing reify:loadBundles Completed in 0ms
+53 silly audit bulk request { 'create-vite': [ '5.5.3' ] }
+54 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-5.5.3.tgz. Extracting by manifest.
+55 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 178ms
+56 timing auditReport:getReport Completed in 183ms
+57 silly audit report {}
+58 timing auditReport:init Completed in 0ms
+59 timing reify:audit Completed in 184ms
+60 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-5.5.3.tgz 269ms (cache miss)
+61 timing reifyNode:node_modules/create-vite Completed in 286ms
+62 timing reify:unpack Completed in 286ms
+63 timing reify:unretire Completed in 1ms
+64 timing build:queue Completed in 3ms
+65 timing build:link:node_modules/create-vite Completed in 6ms
+66 timing build:link Completed in 6ms
+67 timing build:deps Completed in 12ms
+68 timing build Completed in 12ms
+69 timing reify:build Completed in 12ms
+70 timing reify:trash Completed in 0ms
+71 timing reify:save Completed in 14ms
+72 timing reify Completed in 401ms
+73 timing command:create Completed in 32488ms
+74 verbose exit 0
+75 timing npm Completed in 32559ms
+76 info ok
